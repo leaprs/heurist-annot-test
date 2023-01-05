@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://leaprs.github.io/heurist-annot-test/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "un manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "annotations heurist",
+    "@language" : "fr"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://1595aeb6-e60d-40a3-bdb9-2e2f7d629ba0",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://9dd01ac9-2785-4418-8b41-b112bf7a243f",
+      "@type" : "sc:Canvas",
+      "label" : "une image 1",
+      "height" : 2122,
+      "width" : 1585,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://faf3826b-5d5d-45e1-8901-cca999b8c574",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k69644049/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k69644049/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 2122,
+          "width" : 1585
+        },
+        "on" : "http://9dd01ac9-2785-4418-8b41-b112bf7a243f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://86ec3606-cc14-408d-961e-77aa520f282f",
+      "@type" : "sc:Canvas",
+      "label" : "une image 2",
+      "height" : 2893,
+      "width" : 1618,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3d125c4d-fda3-4235-b6e2-56b416a141b2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k69643091/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k69643091/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 2893,
+          "width" : 1618
+        },
+        "on" : "http://86ec3606-cc14-408d-961e-77aa520f282f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
